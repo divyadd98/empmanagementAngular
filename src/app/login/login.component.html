@@ -1,0 +1,28 @@
+
+<body>
+  <div class="container">
+    <img src="/assets/images/employee1.png" width="400" height="400" style="float:left;">
+    <img src="/assets/images/employee2.jpg" width="400" height="400" style="float:right;right:-10px;bottom:0;">
+
+  <div class="center">
+      <h1>Login</h1>
+      <div class="txt_field">
+         
+        
+    <input type="text" name="username" [(ngModel)]="username" placeholder="Username"> 
+    <br>
+    <br>
+  </div>
+  <div class="txt_field">
+
+    <input type="password" name="password" [(ngModel)]="password" placeholder="password">
+
+  </div>
+
+  <button (click)=checkLogin() class="btn btn-success">
+    Login
+  </button>
+
+</div>
+</div>
+</body>
